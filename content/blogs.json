@@ -1,0 +1,68 @@
+[
+  {
+    "id": "future-automation-1",
+    "title": "The Future of Automation: Part 1",
+    "excerpt": "Exploring the nuances of human-robot interaction and the ethical considerations...",
+    "image": "/assets/blogs/blog1.jpg"
+  },
+  {
+    "id": "1766750508627",
+    "title": "Our Journey",
+    "slug": "",
+    "image": "",
+    "excerpt": "A summary of story of adapt robotics",
+    "blocks": [
+      {
+        "id": "1766750535659",
+        "type": "text",
+        "content": "We start our journey from 2020",
+        "style": {
+          "x": 380,
+          "y": 249,
+          "width": 646,
+          "height": 100,
+          "zIndex": 1,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1766750557339",
+        "type": "text",
+        "content": "<b>Our Journey</b>",
+        "style": {
+          "x": 271,
+          "y": 101,
+          "width": 357,
+          "height": 100,
+          "zIndex": 2,
+          "fontSize": 40,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1766750586674",
+        "type": "image",
+        "content": "",
+        "style": {
+          "x": 53,
+          "y": 248,
+          "width": 300,
+          "height": 200,
+          "zIndex": 3,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      }
+    ]
+  }
+]

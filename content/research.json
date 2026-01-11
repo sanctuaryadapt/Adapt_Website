@@ -1,0 +1,14 @@
+[
+    {
+        "id": "khuld",
+        "title": "Khuld",
+        "description": "Eternal Autonomy Project",
+        "image": "/assets/research/khuld.jpg"
+    },
+    {
+        "id": "darwin",
+        "title": "Darwin",
+        "description": "Evolutionary Algorithms",
+        "image": "/assets/research/darwin.jpg"
+    }
+]

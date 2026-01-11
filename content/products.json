@@ -1,0 +1,256 @@
+[
+  {
+    "id": "tbot",
+    "title": "tBot",
+    "tagline": "Your friendly autonomous service robot",
+    "description": "Meet tBot, your smart companion for seamless navigation, offering personalized guidance, multilingual support, and valuable insights to enhance visitor experiences.",
+    "image": "/assets/products/IMG_20241107_181350.jpg",
+    "blocks": [
+      {
+        "id": "1766741864323",
+        "type": "text",
+        "content": "This is tBot. Your very own autonomous personal guide robot. Built with the sole purpose of guiding people.",
+        "style": {
+          "x": 36,
+          "y": 153,
+          "width": 815,
+          "height": 73,
+          "zIndex": 1,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1766741890529",
+        "type": "image",
+        "content": "/assets/Gemini_Generated_Image_2ikylr2ikylr2iky_1_.png",
+        "style": {
+          "x": 858,
+          "y": 140,
+          "width": 268.44444444444446,
+          "height": 425,
+          "zIndex": 2,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "boxShadow": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+        }
+      },
+      {
+        "id": "1766742960833",
+        "type": "text",
+        "content": "<b>tBot - Beyond</b>",
+        "style": {
+          "x": 27,
+          "y": 53,
+          "width": 497,
+          "height": 100,
+          "zIndex": 4,
+          "fontSize": 40,
+          "color": "#1b0085",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768106851002",
+        "type": "image",
+        "content": "/assets/Gemini_Generated_Image_nh6agbnh6agbnh6a.png",
+        "style": {
+          "x": 53,
+          "y": 244,
+          "width": 256,
+          "height": 426,
+          "zIndex": 4,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768107069339",
+        "type": "text",
+        "content": "<div>Our robot can be deployed anywhere within a matter of minutes using it's advanced mapping and user setup process.&nbsp;</div>",
+        "style": {
+          "x": 348,
+          "y": 252,
+          "width": 470,
+          "height": 98,
+          "zIndex": 5,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768107170684",
+        "type": "text",
+        "content": "Each of our robot's can be customized with it's own personality, voice, and behaviours. Built to be \"programmed on the fly\" using an intuitive user interface in a way that democratizes such systems and allows for hands on usage.",
+        "style": {
+          "x": 347,
+          "y": 576,
+          "width": 782.5555555555555,
+          "height": 102,
+          "zIndex": 6,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768107470260",
+        "type": "text",
+        "content": "Thanks to it's cutting-edge sensor suite and advanced robotics \nalgorithms, tBot can be installed without any change to the underlying \nlocation. Each individual tBot actually way more cost-competitive than any other \nrobots currently on market yet provide similar or improved capability \nnonetheless.",
+        "style": {
+          "x": 347,
+          "y": 343,
+          "width": 460,
+          "height": 238,
+          "zIndex": 7,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768107599860",
+        "type": "text",
+        "content": "Although mainly focused on guidance and convenience, tBot can be adapted (pun definitely intended) to any professional task which requires user interaction.&nbsp;",
+        "style": {
+          "x": 56,
+          "y": 679,
+          "width": 1092.2222222222222,
+          "height": 81.11111111111111,
+          "zIndex": 8,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768107735317",
+        "type": "text",
+        "content": "<div><i>\"The only way of discovering the limits of the possible is to&nbsp;</i></div><div><i>venture a little way past them into the impossible\"</i></div><div><b><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;</i>Arthur C. Clarke</b></div>",
+        "style": {
+          "x": 327,
+          "y": 767,
+          "width": 660,
+          "height": 128.88888888888889,
+          "zIndex": 9,
+          "fontSize": 20,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 30,
+          "opacity": 1,
+          "boxShadow": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+        }
+      },
+      {
+        "id": "1768108132300",
+        "type": "text",
+        "content": "<div><b>Detailed Product Specifications:</b></div><div><div><br></div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"></b></p><b>Max Speed:</b> 0.3 M/sec</li></div><div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"></b></p><b>Battery Time:</b> 8 Hrs (Full Charge)</li></div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"> Inference Engine:</b> 40 TOPS (Trillions of Operations Per Second) dedicated neural processing.</p></li><li><p data-path-to-node=\"5,1,0\"><b data-path-to-node=\"5,1,0\" data-index-in-node=\"0\">Architecture:</b> 1024-Core Ampere GPU pipeline for real-time vision.</p></li><li><p data-path-to-node=\"5,2,0\"><b data-path-to-node=\"5,2,0\" data-index-in-node=\"0\">Capabilities:</b> Simultaneous localization (SLAM), dynamic obstacle avoidance, and human pose estimation.</p></li><div><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Display Interface:</b> 11-inch WQHD+ (2560 x 1600) Liquid Retina Display.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Refresh Rate:</b> 120Hz Fluid Motion Response (ensures smooth facial animations).</p></li><li><p data-path-to-node=\"8,2,0\"><b data-path-to-node=\"8,2,0\" data-index-in-node=\"0\">Brightness:</b> 500 nits (visible in bright office environments).</p></li><li><p data-path-to-node=\"8,3,0\"><b data-path-to-node=\"8,3,0\" data-index-in-node=\"0\">Interaction:</b> 10-point Multi-touch Capacitive Layer.</p></li><li><p data-path-to-node=\"8,3,0\"><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">Control Logic:</b> Dual-Tier Heterogeneous Architecture (RTOS-level motor control + High-level AI planning).</p></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">Drive System:</b> Closed-Loop Odometry with Real-Time Feedback correction.</p></li><li><p data-path-to-node=\"11,2,0\"><b data-path-to-node=\"11,2,0\" data-index-in-node=\"0\">Motor Driver:</b> High-Current Smart Drive with Regenerative Braking support.</p></li><li><p data-path-to-node=\"11,3,0\"><b data-path-to-node=\"11,3,0\" data-index-in-node=\"0\">Locomotion Accuracy:</b> &lt; 1% Drift per meter (typical for encoders).</p></li></p></li></div>",
+        "style": {
+          "x": 63,
+          "y": 907,
+          "width": 1064.4444444444443,
+          "height": 258.8888888888889,
+          "zIndex": 10,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768109209661",
+        "type": "image",
+        "content": "/assets/WhatsApp_Image_2025-05-16_at_14.22.49.jpeg",
+        "style": {
+          "x": 286,
+          "y": 1191,
+          "width": 671.1111111111111,
+          "height": 435.55555555555554,
+          "zIndex": 11,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      },
+      {
+        "id": "1768109264483",
+        "type": "text",
+        "content": "<b>Deployed tBot</b>",
+        "style": {
+          "x": 533,
+          "y": 1662,
+          "width": 248.88888888888886,
+          "height": 50,
+          "zIndex": 12,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      }
+    ],
+    "imageFit": "contain",
+    "imagePosition": "top"
+  },
+  {
+    "id": "goldbucket",
+    "title": "GoldBucket",
+    "tagline": "Your personal finance analyzer",
+    "description": "An AI powered accounts manager app which could scan your bills and create interactive dashboards for you to analyze.",
+    "image": "/assets/products/goldbucket.jpg",
+    "blocks": [
+      {
+        "id": "1766740077933",
+        "type": "text",
+        "content": "GoldBucket Custom",
+        "style": {
+          "x": 500,
+          "y": 50,
+          "width": "auto",
+          "height": "auto",
+          "zIndex": 1,
+          "fontSize": 16,
+          "color": "#000000"
+        }
+      },
+      {
+        "id": "1766740111542",
+        "type": "image",
+        "content": "",
+        "style": {
+          "x": 50,
+          "y": 300,
+          "width": 300,
+          "height": 200,
+          "zIndex": 2,
+          "fontSize": 16,
+          "color": "#000000"
+        }
+      }
+    ]
+  }
+]
