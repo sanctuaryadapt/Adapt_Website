@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getContent, saveContent } from '@/lib/content'
 
+export const runtime = 'edge';
+
 // GET /api/admin/content?type=products
 export async function GET(req: NextRequest) {
     if (process.env.NODE_ENV !== 'development') {

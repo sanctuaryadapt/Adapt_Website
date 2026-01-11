@@ -1,8 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { writeFile, mkdir } from 'fs/promises'
-import path from 'path'
+// path imported dynamically
+
+export const runtime = 'edge';
 
 export async function POST(req: NextRequest) {
+    if (process.env.NODE_ENV !== 'development') {
+        return new NextResponse('Forbidden', { status: 403 })
+    }
+
+    const { writeFile, mkdir } = await import('fs/promises');
+    const path = (await import('path')).default;
+
     if (process.env.NODE_ENV !== 'development') {
         return new NextResponse('Forbidden', { status: 403 })
     }
@@ -26,6 +34,7 @@ export async function POST(req: NextRequest) {
 
     const filePath = path.join(uploadDir, filename)
     await writeFile(filePath, buffer)
+
 
     return NextResponse.json({
         success: true,

@@ -1,7 +1,15 @@
 import { getContent } from '@/lib/content'
 import PageRenderer from '@/components/PageRenderer'
 
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-static'
+
+export async function generateStaticParams() {
+    const items = await getContent('blogs')
+    return items.map((item: any) => ({
+        slug: item.slug || item.id,
+    }))
+}
+
 
 export default async function BlogPage({
     params,

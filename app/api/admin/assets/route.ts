@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server'
-import { readdir } from 'fs/promises'
-import path from 'path'
+
+export const runtime = 'edge';
 
 export async function GET() {
     try {
+        const path = (await import('path')).default;
+        const { readdir } = await import('fs/promises');
+
         const uploadDir = path.join(process.cwd(), 'public/assets')
         // Read root assets, we could make this recursive later or accept a query param for folders
         const files = await readdir(uploadDir, { withFileTypes: true })

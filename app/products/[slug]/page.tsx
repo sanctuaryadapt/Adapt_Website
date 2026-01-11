@@ -2,7 +2,15 @@ import { getContent } from '@/lib/content'
 import PageRenderer from '@/components/PageRenderer'
 import { notFound } from 'next/navigation'
 
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-static'
+
+export async function generateStaticParams() {
+    const items = await getContent('products')
+    return items.map((item: any) => ({
+        slug: item.slug || item.id,
+    }))
+}
+
 
 export default async function ProductPage({
     params,

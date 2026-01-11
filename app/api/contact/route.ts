@@ -1,8 +1,10 @@
 import { NextResponse } from 'next/server'
-import nodemailer from 'nodemailer'
+
+export const runtime = 'edge';
 
 export async function POST(request: Request) {
     try {
+        const nodemailer = (await import('nodemailer')).default; // or just import * as nodemailer
         const body = await request.json()
         const { firstName, lastName, email, message } = body
 
