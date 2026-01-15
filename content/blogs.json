@@ -1,25 +1,19 @@
 [
   {
-    "id": "future-automation-1",
-    "title": "The Future of Automation: Part 1",
-    "excerpt": "Exploring the nuances of human-robot interaction and the ethical considerations...",
-    "image": "/assets/blogs/blog1.jpg"
-  },
-  {
     "id": "1766750508627",
-    "title": "Our Journey",
+    "title": "Who are we?",
     "slug": "",
-    "image": "",
-    "excerpt": "A summary of story of adapt robotics",
+    "image": "/assets/blogs/DSC02937.JPG",
+    "excerpt": "A look at the team at adapt robotics",
     "blocks": [
       {
         "id": "1766750535659",
         "type": "text",
-        "content": "We start our journey from 2020",
+        "content": "A rag tag team of two. Currently incubated and working at Sri Sairam Incubation Foundation. We mostly handle any and all automation based projects. Particularly Robotics, AI and IoT.",
         "style": {
-          "x": 380,
-          "y": 249,
-          "width": 646,
+          "x": 100,
+          "y": 161,
+          "width": 1051,
           "height": 100,
           "zIndex": 1,
           "fontSize": 16,
@@ -27,15 +21,22 @@
           "backgroundColor": "transparent",
           "borderRadius": 0,
           "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 152,
+          "width": 350,
+          "height": 176,
+          "fontSize": 16
         }
       },
       {
         "id": "1766750557339",
         "type": "text",
-        "content": "<b>Our Journey</b>",
+        "content": "<b>Who are we?</b>",
         "style": {
-          "x": 271,
-          "y": 101,
+          "x": 475,
+          "y": 35,
           "width": 357,
           "height": 100,
           "zIndex": 2,
@@ -43,16 +44,24 @@
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 20,
+          "width": 350,
+          "height": 92,
+          "fontSize": 40
         }
       },
       {
-        "id": "1766750586674",
+        "id": "1768497570755",
         "type": "image",
         "content": "",
         "style": {
-          "x": 53,
-          "y": 248,
+          "x": 120,
+          "y": 261,
           "width": 300,
           "height": 200,
           "zIndex": 3,
@@ -61,8 +70,286 @@
           "backgroundColor": "transparent",
           "borderRadius": 0,
           "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 368,
+          "width": 350,
+          "height": 233,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768497573331",
+        "type": "text",
+        "content": "<b>Our Mentor</b>",
+        "style": {
+          "x": 452,
+          "y": 261,
+          "width": 347,
+          "height": 50,
+          "zIndex": 4,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 641,
+          "width": 350,
+          "height": 70,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768497593634",
+        "type": "text",
+        "content": "Sam Austin J",
+        "style": {
+          "x": 171,
+          "y": 461,
+          "width": 198,
+          "height": 50,
+          "zIndex": 5,
+          "fontSize": 20,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 943,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768497628506",
+        "type": "text",
+        "content": "M.Tech in Automotive, Bachelors in Mechanical. He is our guide and mentor in robotics. He has a wide array of skills including but not limited to guiding student startups&nbsp;",
+        "style": {
+          "x": 452,
+          "y": 311,
+          "width": 699,
+          "height": 100,
+          "zIndex": 6,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 751,
+          "width": 350,
+          "height": 152,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768497760568",
+        "type": "image",
+        "content": "/assets/IMG-20251010-WA0034.jpg",
+        "style": {
+          "x": 832,
+          "y": 584,
+          "width": 300,
+          "height": 200,
+          "zIndex": 7,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1192,
+          "width": 350,
+          "height": 233,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768497765425",
+        "type": "text",
+        "content": "Shahjahan Mujeeb",
+        "style": {
+          "x": 848,
+          "y": 784,
+          "width": 276,
+          "height": 51,
+          "zIndex": 8,
+          "fontSize": 20,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2125,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768497800272",
+        "type": "text",
+        "content": "<b>Founder CEO and&nbsp;Head of Software</b>",
+        "style": {
+          "x": 161,
+          "y": 584,
+          "width": 628,
+          "height": 59,
+          "zIndex": 9,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "right"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1045,
+          "width": 350,
+          "height": 107,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768497843224",
+        "type": "image",
+        "content": "",
+        "style": {
+          "x": 126,
+          "y": 888,
+          "width": 300,
+          "height": 200,
+          "zIndex": 10,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1705,
+          "width": 350,
+          "height": 233,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768497848448",
+        "type": "text",
+        "content": "<b>Co-Founder and Head of Hardware</b>",
+        "style": {
+          "x": 460,
+          "y": 888,
+          "width": 534,
+          "height": 54,
+          "zIndex": 11,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "left"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1978,
+          "width": 350,
+          "height": 107,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768497949420",
+        "type": "text",
+        "content": "<b>Kabilan K</b>",
+        "style": {
+          "x": 200.5,
+          "y": 1106,
+          "width": 155,
+          "height": 59,
+          "zIndex": 13,
+          "fontSize": 20,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2443,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768498017768",
+        "type": "text",
+        "content": "B.Tech Information Technology, he has been building things for years now. With a specialization in AI, Robotics, Software Development and Business Studies he likes to think in terms of systems with a firm belief that automation is the future.",
+        "style": {
+          "x": 105,
+          "y": 628,
+          "width": 680,
+          "height": 112,
+          "zIndex": 13,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "right"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1465,
+          "width": 350,
+          "height": 200,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768498051751",
+        "type": "text",
+        "content": "B.E in Electronics and Electrical Engineering, he has a unrivaled passion and knack for robotics and baremetal programming as well as hardware design. Handling all of the sensors, actuators, motors etc.",
+        "style": {
+          "x": 460,
+          "y": 942,
+          "width": 676,
+          "height": 146,
+          "zIndex": 14,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2227,
+          "width": 350,
+          "height": 176,
+          "fontSize": 16
         }
       }
-    ]
+    ],
+    "canvasHeight": 2912
   }
 ]

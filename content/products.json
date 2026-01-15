@@ -9,18 +9,26 @@
       {
         "id": "1766741864323",
         "type": "text",
-        "content": "This is tBot. Your very own autonomous personal guide robot. Built with the sole purpose of guiding people.",
+        "content": "This is tBot. Your very own autonomous personal guidance robot. Built with the sole purpose of guiding people.",
         "style": {
-          "x": 36,
+          "x": 53,
           "y": 153,
-          "width": 815,
+          "width": 1062,
           "height": 73,
           "zIndex": 1,
           "fontSize": 16,
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "left"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 152,
+          "width": 350,
+          "height": 128,
+          "fontSize": 16
         }
       },
       {
@@ -28,8 +36,8 @@
         "type": "image",
         "content": "/assets/Gemini_Generated_Image_2ikylr2ikylr2iky_1_.png",
         "style": {
-          "x": 858,
-          "y": 140,
+          "x": 862.7777777777778,
+          "y": 244,
           "width": 268.44444444444446,
           "height": 425,
           "zIndex": 2,
@@ -39,14 +47,22 @@
           "borderRadius": 0,
           "opacity": 1,
           "boxShadow": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
-        }
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1586,
+          "width": 350,
+          "height": 554,
+          "fontSize": 16
+        },
+        "groupId": "group-1768500227708"
       },
       {
         "id": "1766742960833",
         "type": "text",
-        "content": "<b>tBot - Beyond</b>",
+        "content": "<b>tBot - Beyond&nbsp;</b>",
         "style": {
-          "x": 27,
+          "x": 348,
           "y": 53,
           "width": 497,
           "height": 100,
@@ -55,7 +71,15 @@
           "color": "#1b0085",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 20,
+          "width": 350,
+          "height": 92,
+          "fontSize": 40
         }
       },
       {
@@ -73,66 +97,48 @@
           "backgroundColor": "transparent",
           "borderRadius": 0,
           "opacity": 1
-        }
-      },
-      {
-        "id": "1768107069339",
-        "type": "text",
-        "content": "<div>Our robot can be deployed anywhere within a matter of minutes using it's advanced mapping and user setup process.&nbsp;</div>",
-        "style": {
-          "x": 348,
-          "y": 252,
-          "width": 470,
-          "height": 98,
-          "zIndex": 5,
-          "fontSize": 16,
-          "color": "#000000",
-          "backgroundColor": "transparent",
-          "borderRadius": 0,
-          "opacity": 1
-        }
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 390,
+          "width": 350,
+          "height": 582,
+          "fontSize": 16
+        },
+        "groupId": "group-1768499959325"
       },
       {
         "id": "1768107170684",
         "type": "text",
-        "content": "Each of our robot's can be customized with it's own personality, voice, and behaviours. Built to be \"programmed on the fly\" using an intuitive user interface in a way that democratizes such systems and allows for hands on usage.",
+        "content": "Easily customizable with it's own personality, voice, and behaviours. Built to be \"programmed on the fly\" using an intuitive user interface in a way that democratizes such systems and allows for hands on usage.",
         "style": {
-          "x": 347,
-          "y": 576,
-          "width": 782.5555555555555,
-          "height": 102,
+          "x": 341,
+          "y": 244,
+          "width": 486,
+          "height": 144,
           "zIndex": 6,
           "fontSize": 16,
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
-        }
-      },
-      {
-        "id": "1768107470260",
-        "type": "text",
-        "content": "Thanks to it's cutting-edge sensor suite and advanced robotics \nalgorithms, tBot can be installed without any change to the underlying \nlocation. Each individual tBot actually way more cost-competitive than any other \nrobots currently on market yet provide similar or improved capability \nnonetheless.",
-        "style": {
-          "x": 347,
-          "y": 343,
-          "width": 460,
-          "height": 238,
-          "zIndex": 7,
-          "fontSize": 16,
-          "color": "#000000",
-          "backgroundColor": "transparent",
-          "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1012,
+          "width": 350,
+          "height": 176,
+          "fontSize": 16
         }
       },
       {
         "id": "1768107599860",
         "type": "text",
-        "content": "Although mainly focused on guidance and convenience, tBot can be adapted (pun definitely intended) to any professional task which requires user interaction.&nbsp;",
+        "content": "<div>Although mainly focused on guidance and convenience, tBot can be adapted (pun definitely intended) to any professional task which&nbsp;involves user interaction and on-the-spot feedback collection through surveys.</div>",
         "style": {
           "x": 56,
-          "y": 679,
+          "y": 707,
           "width": 1092.2222222222222,
           "height": 81.11111111111111,
           "zIndex": 8,
@@ -140,7 +146,15 @@
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2180,
+          "width": 350,
+          "height": 176,
+          "fontSize": 16
         }
       },
       {
@@ -148,26 +162,33 @@
         "type": "text",
         "content": "<div><i>\"The only way of discovering the limits of the possible is to&nbsp;</i></div><div><i>venture a little way past them into the impossible\"</i></div><div><b><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;</i>Arthur C. Clarke</b></div>",
         "style": {
-          "x": 327,
-          "y": 767,
+          "x": 268.5,
+          "y": 846,
           "width": 660,
           "height": 128.88888888888889,
           "zIndex": 9,
           "fontSize": 20,
           "color": "#000000",
           "backgroundColor": "transparent",
-          "borderRadius": 30,
+          "borderRadius": 0,
           "opacity": 1,
-          "boxShadow": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+          "boxShadow": "none"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2396,
+          "width": 350,
+          "height": 212,
+          "fontSize": 20
         }
       },
       {
         "id": "1768108132300",
         "type": "text",
-        "content": "<div><b>Detailed Product Specifications:</b></div><div><div><br></div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"></b></p><b>Max Speed:</b> 0.3 M/sec</li></div><div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"></b></p><b>Battery Time:</b> 8 Hrs (Full Charge)</li></div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"> Inference Engine:</b> 40 TOPS (Trillions of Operations Per Second) dedicated neural processing.</p></li><li><p data-path-to-node=\"5,1,0\"><b data-path-to-node=\"5,1,0\" data-index-in-node=\"0\">Architecture:</b> 1024-Core Ampere GPU pipeline for real-time vision.</p></li><li><p data-path-to-node=\"5,2,0\"><b data-path-to-node=\"5,2,0\" data-index-in-node=\"0\">Capabilities:</b> Simultaneous localization (SLAM), dynamic obstacle avoidance, and human pose estimation.</p></li><div><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Display Interface:</b> 11-inch WQHD+ (2560 x 1600) Liquid Retina Display.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Refresh Rate:</b> 120Hz Fluid Motion Response (ensures smooth facial animations).</p></li><li><p data-path-to-node=\"8,2,0\"><b data-path-to-node=\"8,2,0\" data-index-in-node=\"0\">Brightness:</b> 500 nits (visible in bright office environments).</p></li><li><p data-path-to-node=\"8,3,0\"><b data-path-to-node=\"8,3,0\" data-index-in-node=\"0\">Interaction:</b> 10-point Multi-touch Capacitive Layer.</p></li><li><p data-path-to-node=\"8,3,0\"><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">Control Logic:</b> Dual-Tier Heterogeneous Architecture (RTOS-level motor control + High-level AI planning).</p></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">Drive System:</b> Closed-Loop Odometry with Real-Time Feedback correction.</p></li><li><p data-path-to-node=\"11,2,0\"><b data-path-to-node=\"11,2,0\" data-index-in-node=\"0\">Motor Driver:</b> High-Current Smart Drive with Regenerative Braking support.</p></li><li><p data-path-to-node=\"11,3,0\"><b data-path-to-node=\"11,3,0\" data-index-in-node=\"0\">Locomotion Accuracy:</b> &lt; 1% Drift per meter (typical for encoders).</p></li></p></li></div>",
+        "content": "<div><li><p data-path-to-node=\"5,0,0\"><b>Model Name: </b>Asmaan</p></li><li><p data-path-to-node=\"5,0,0\"><b>Max Speed:</b> 0.3 M/sec</p></li></div><div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"></b></p><b>Battery Time:</b>&nbsp;2 Hrs (Full Charge)</li></div><li><p data-path-to-node=\"5,0,0\"><b data-path-to-node=\"5,0,0\" data-index-in-node=\"0\"> Inference Engine:</b> 40 TOPS (Trillions of Operations Per Second) dedicated neural processing.</p></li><li><p data-path-to-node=\"5,1,0\"><b data-path-to-node=\"5,1,0\" data-index-in-node=\"0\">Architecture:</b> 1024-Core Ampere GPU pipeline for real-time vision.</p></li><li><p data-path-to-node=\"5,2,0\"><b data-path-to-node=\"5,2,0\" data-index-in-node=\"0\">Capabilities:</b> Simultaneous localization (SLAM), dynamic obstacle avoidance, and human pose estimation.</p></li><div><li><p data-path-to-node=\"8,0,0\"><b data-path-to-node=\"8,0,0\" data-index-in-node=\"0\">Display Interface:</b> 11-inch WQHD+ (2560 x 1600) Liquid Retina Display.</p></li><li><p data-path-to-node=\"8,1,0\"><b data-path-to-node=\"8,1,0\" data-index-in-node=\"0\">Refresh Rate:</b> 120Hz Fluid Motion Response (ensures smooth facial animations).</p></li><li><p data-path-to-node=\"8,2,0\"><b data-path-to-node=\"8,2,0\" data-index-in-node=\"0\">Brightness:</b> 500 nits (visible in bright office environments).</p></li><li><p data-path-to-node=\"8,3,0\"><b data-path-to-node=\"8,3,0\" data-index-in-node=\"0\">Interaction:</b> 10-point Multi-touch Capacitive Layer.</p></li><li><p data-path-to-node=\"8,3,0\"></p></li><li><p data-path-to-node=\"11,0,0\"><b data-path-to-node=\"11,0,0\" data-index-in-node=\"0\">Control Logic:</b> Dual-Tier Heterogeneous Architecture (RTOS-level motor control + High-level AI planning).</p></li><li><p data-path-to-node=\"11,1,0\"><b data-path-to-node=\"11,1,0\" data-index-in-node=\"0\">Drive System:</b> Closed-Loop Odometry with Real-Time Feedback correction.</p></li><li><p data-path-to-node=\"11,2,0\"><b data-path-to-node=\"11,2,0\" data-index-in-node=\"0\">Motor Driver:</b> High-Current Smart Drive with Regenerative Braking support.</p></li><li><p data-path-to-node=\"11,3,0\"><b data-path-to-node=\"11,3,0\" data-index-in-node=\"0\">Locomotion Accuracy:</b> &lt; 1% Drift per meter (typical for encoders).</p></li><p></p></div>",
         "style": {
-          "x": 63,
-          "y": 907,
+          "x": 74.77777777777783,
+          "y": 3944.1111111111113,
           "width": 1064.4444444444443,
           "height": 258.8888888888889,
           "zIndex": 10,
@@ -175,7 +196,15 @@
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
-          "opacity": 1
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 7267,
+          "width": 350,
+          "height": 801,
+          "fontSize": 16
         }
       },
       {
@@ -183,8 +212,8 @@
         "type": "image",
         "content": "/assets/WhatsApp_Image_2025-05-16_at_14.22.49.jpeg",
         "style": {
-          "x": 286,
-          "y": 1191,
+          "x": 268.5,
+          "y": 1065,
           "width": 671.1111111111111,
           "height": 435.55555555555554,
           "zIndex": 11,
@@ -193,64 +222,864 @@
           "backgroundColor": "transparent",
           "borderRadius": 0,
           "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2648,
+          "width": 350,
+          "height": 227,
+          "fontSize": 16
         }
       },
       {
         "id": "1768109264483",
         "type": "text",
-        "content": "<b>Deployed tBot</b>",
+        "content": "<b>tBot - Model Asmaan on Deployment</b>",
         "style": {
-          "x": 533,
-          "y": 1662,
-          "width": 248.88888888888886,
+          "x": 440,
+          "y": 1518,
+          "width": 350,
+          "height": 64,
+          "zIndex": 12,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 3062,
+          "width": 350,
+          "height": 56,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768489942139",
+        "type": "text",
+        "content": "<b>Product Specifications:</b>",
+        "style": {
+          "x": 66.77777777777783,
+          "y": 3893,
+          "width": 1064.4444444444443,
+          "height": 51.111111111111086,
+          "zIndex": 13,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 7157,
+          "width": 350,
+          "height": 70,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768490087119",
+        "type": "text",
+        "content": "<b>Why tBot&nbsp;— Why Adapt's tBot</b>",
+        "style": {
+          "x": 75.77777777777783,
+          "y": 1667,
+          "width": 449,
+          "height": 62,
+          "zIndex": 14,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2915,
+          "width": 350,
+          "height": 107,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768490099787",
+        "type": "text",
+        "content": "<b>How you can get / rent your own tBot?</b>",
+        "style": {
+          "x": 90,
+          "y": 3453,
+          "width": 548,
           "height": 50,
+          "zIndex": 15,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 6506,
+          "width": 350,
+          "height": 107,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768490252813",
+        "type": "text",
+        "content": "<b>Online &amp; Offline Demos</b>",
+        "style": {
+          "x": 76.77777777777783,
+          "y": 3098,
+          "width": 395,
+          "height": 56,
+          "zIndex": 16,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5840,
+          "width": 350,
+          "height": 70,
+          "fontSize": 25
+        },
+        "groupId": "group-1768500296774"
+      },
+      {
+        "id": "1768490272145",
+        "type": "text",
+        "content": "<b>FAQs</b>",
+        "style": {
+          "x": 74.77777777777783,
+          "y": 4272,
+          "width": 200,
+          "height": 100,
+          "zIndex": 17,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 8108,
+          "width": 350,
+          "height": 70,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768490389592",
+        "type": "text",
+        "content": "<b>Current Available Models and Robots</b>",
+        "style": {
+          "x": 56,
+          "y": 2141,
+          "width": 537,
+          "height": 55,
+          "zIndex": 18,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "left"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 4277,
+          "width": 350,
+          "height": 107,
+          "fontSize": 25
+        }
+      },
+      {
+        "id": "1768490541685",
+        "type": "text",
+        "content": "<p data-start=\"108\" data-end=\"200\">Precision engineered with industrial-grade construction, and manufactured entirely in India.</p><p data-start=\"108\" data-end=\"200\"><br></p><p data-start=\"108\" data-end=\"200\">Deployment-first user experience and zero infrastructure changes required,&nbsp; tBot is one of the easiest robots to roll out in real-world locations. It is fully autonomous out of the box developed with a true plug-and-play mindset.</p><p data-start=\"202\" data-end=\"443\"><br></p><p data-start=\"445\" data-end=\"592\">Our biggest assertion is that tBot offers interaction and novelty similar to quadruped and humanoid robots, at a much more competitive price point.</p>",
+        "style": {
+          "x": 75.77777777777783,
+          "y": 1729,
+          "width": 780,
+          "height": 245,
+          "zIndex": 19,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 3821,
+          "width": 350,
+          "height": 416,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768491139964",
+        "type": "text",
+        "content": "<div>Current bots offer two distinct voices and personalities</div><div><br></div><div>1. Cassandra - The female persona (Default)</div><div>2.&nbsp;Prometheus&nbsp;- The male persona</div><div><br></div><div>More versions will rolled out in subsequent software updates!</div>",
+        "style": {
+          "x": 348,
+          "y": 429,
+          "width": 472,
+          "height": 222,
+          "zIndex": 18,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1228,
+          "width": 350,
+          "height": 248,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768491710180",
+        "type": "image",
+        "content": "/assets/EPT09837.JPG",
+        "style": {
+          "x": 889,
+          "y": 1585,
+          "width": 283,
+          "height": 504,
+          "zIndex": 19,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 3158,
+          "width": 350,
+          "height": 623,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768493317585",
+        "type": "video",
+        "content": "https://youtube.com/shorts/nlosP_0bPNk?si=8kknUkEYypM3z3n1",
+        "style": {
+          "x": 170.1111111111111,
+          "y": 2252,
+          "width": 422.8888888888889,
+          "height": 754,
+          "zIndex": 20,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 4424,
+          "width": 350,
+          "height": 624,
+          "fontSize": 16
+        },
+        "groupId": "group-1768500330312"
+      },
+      {
+        "id": "1768493499911",
+        "type": "video",
+        "content": "https://youtube.com/shorts/OOt_e0vgKMo",
+        "style": {
+          "x": 659.5,
+          "y": 2252,
+          "width": 415,
+          "height": 747,
+          "zIndex": 21,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5068,
+          "width": 350,
+          "height": 630,
+          "fontSize": 16
+        },
+        "groupId": "group-1768500330312"
+      },
+      {
+        "id": "1768493606879",
+        "type": "text",
+        "content": "<b>Model Asmaan</b>",
+        "style": {
+          "x": 524.7777777777778,
+          "y": 3034,
+          "width": 207,
+          "height": 50,
+          "zIndex": 22,
+          "fontSize": 20,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5738,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768493715262",
+        "type": "text",
+        "content": "First look of Model Abar",
+        "style": {
+          "x": 92.27777777777783,
+          "y": 194,
+          "width": 182.5,
+          "height": 50,
+          "zIndex": 23,
+          "fontSize": 12,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 320,
+          "width": 350,
+          "height": 50,
+          "fontSize": 12
+        },
+        "groupId": "group-1768499959325"
+      },
+      {
+        "id": "1768493777998",
+        "type": "text",
+        "content": "Rear view - Model Abar",
+        "style": {
+          "x": 897,
+          "y": 194,
+          "width": 200,
+          "height": 50,
+          "zIndex": 24,
+          "fontSize": 12,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "center"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1516,
+          "width": 350,
+          "height": 50,
+          "fontSize": 12
+        },
+        "groupId": "group-1768500227708"
+      },
+      {
+        "id": "1768493862918",
+        "type": "text",
+        "content": "<div>We're planning to officially start with live demos and RaaS deployments with the launch of Model Abar. Current model is only built to be used in highly controlled environments with 1-2 Hours of battery life.&nbsp;</div><div><br></div><div>Model Abar is the next in stage model which will itself contain 8+ hours of battery life and a much more robust manufacturing. Thus leading to highly capable deployment.&nbsp;</div><div><br></div><div>However, if you are willing to&nbsp;<span><span class=\"wqLW9c pb3iw RES9jf\">accommodate</span></span>&nbsp;pilot deployments in your location kindly contact us through the official form on our website, our company phone number or through any of our social networks. For more details on Renting and Sales see below.</div>",
+        "style": {
+          "x": 109,
+          "y": 3154,
+          "width": 1039.2222222222222,
+          "height": 236,
+          "zIndex": 25,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5930,
+          "width": 350,
+          "height": 536,
+          "fontSize": 16
+        },
+        "groupId": "group-1768500296774"
+      },
+      {
+        "id": "1768494225887",
+        "type": "text",
+        "content": "<p data-start=\"214\" data-end=\"336\">We’re currently not offering rentals or direct sales. At this stage, tBot is available only through <strong data-start=\"314\" data-end=\"335\">pilot deployments</strong>. If you’d like to enquire about a pilot, please contact us. We offer two payment options</p><ol data-start=\"428\" data-end=\"579\"><li data-start=\"428\" data-end=\"515\">\n<p data-start=\"431\" data-end=\"515\"><strong data-start=\"431\" data-end=\"460\">1. RaaS (Robot as a Service)</strong> – A fixed daily fee, charged <strong data-start=\"490\" data-end=\"512\">per robot deployed</strong>.<br><strong data-start=\"519\" data-end=\"536\">2. Full Purchase</strong> – Buy the robot model outright, <strong data-start=\"569\" data-end=\"578\">as-is</strong>.</p></li><li data-start=\"516\" data-end=\"579\"><br></li></ol><br>",
+        "style": {
+          "x": 116.22222222222217,
+          "y": 3503,
+          "width": 1006,
+          "height": 165,
+          "zIndex": 26,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 6653,
+          "width": 350,
+          "height": 320,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768494500522",
+        "type": "text",
+        "content": "<b>Contact us today for pilot deployment to get exclusive benefits with future model releases!</b>",
+        "style": {
+          "x": 466.2222222222222,
+          "y": 3708,
+          "width": 422.7777777777778,
+          "height": 100,
+          "zIndex": 27,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "boxShadow": "0 25px 50px -12px rgb(0 0 0 / 0.25)"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 7013,
+          "width": 350,
+          "height": 104,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768494703995",
+        "type": "text",
+        "content": "<b>Q: Model Asmaan, Model Abar What does it mean?<br></b><div>A: Each of our model (mechanical, electronics and software combined) has it's own nickname. The first fully developed version is Model Asmaan. Currently in development version if Abar. First ever model was called \"Afaq\"</div><div><br></div><div><b>Q: Can I stand on this robot? Will it take me from A to B if I climb on it?&nbsp;</b></div><div>A<b>: </b>No.<b><br></b></div><div><b><br></b></div><div><b>Q: How long will a robot's software systems be updated and supported?<br></b>A: We're planning a basic lifetime cycle of supporting a particular model's software for 5 years before stopping.</div><div><b><br></b></div><div><b>Q: Is the code for this open source? Can I build my own robot exactly like this? Buy and reverse Engineer this?</b><br>A: The code is not open sourced as of today. We are in plan to open source it sooner or later. Although the robot will remain proprietary and trying to replicating this same robot (design and or code) for sake of profit may lead to us taking legal action. However, we'll consider helping anyone that approches us for free it's for a school / college project or any other non-monetary reason.<b><br></b></div>",
+        "style": {
+          "x": 109,
+          "y": 4353,
+          "width": 1006,
+          "height": 418,
+          "zIndex": 28,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 8218,
+          "width": 350,
+          "height": 848,
+          "fontSize": 16
+        }
+      }
+    ],
+    "imageFit": "contain",
+    "imagePosition": "top",
+    "canvasHeight": 9226
+  },
+  {
+    "id": "goldbucket",
+    "title": "GoldBucket",
+    "tagline": "Your personal finance analyzer",
+    "description": "An AI powered accounts manager app which could scan all your physical bills and create interactive dashboards so you can always be on budget.",
+    "image": "/assets/products/gold_bucket_logo.png",
+    "blocks": [
+      {
+        "id": "1766740077933",
+        "type": "text",
+        "content": "<b>GoldBucket (Archived)</b>",
+        "style": {
+          "x": 409,
+          "y": 19,
+          "width": "auto",
+          "height": "auto",
+          "zIndex": 1,
+          "fontSize": 40,
+          "color": "#1b0085",
+          "textAlign": "center"
+        },
+        "textAlign": "center",
+        "mobileStyle": {
+          "x": 20,
+          "y": 20,
+          "width": 350,
+          "height": 71,
+          "fontSize": 26
+        }
+      },
+      {
+        "id": "1766740111542",
+        "type": "image",
+        "content": "/assets/Pic6.jpg",
+        "style": {
+          "x": 74,
+          "y": 213,
+          "width": 277,
+          "height": 461,
+          "zIndex": 2,
+          "fontSize": 16,
+          "color": "#000000"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 263,
+          "width": 350,
+          "height": 582,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768179201510",
+        "type": "image",
+        "content": "/assets/Pic5.jpg",
+        "style": {
+          "x": 839,
+          "y": 1478,
+          "width": 297,
+          "height": 462,
+          "zIndex": 4,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2393,
+          "width": 350,
+          "height": 544,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768179217635",
+        "type": "image",
+        "content": "/assets/Pic0.jpg",
+        "style": {
+          "x": 75,
+          "y": 1989,
+          "width": 298,
+          "height": 564,
+          "zIndex": 5,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 3583,
+          "width": 350,
+          "height": 662,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768179274513",
+        "type": "text",
+        "content": "<b>Our First Product — And The Beginning Of Adapt</b>",
+        "style": {
+          "x": 355,
+          "y": 213,
+          "width": 812,
+          "height": 59,
+          "zIndex": 6,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "left"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 131,
+          "width": 350,
+          "height": 92,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768179368752",
+        "type": "text",
+        "content": "<div>I remember starting work on GoldBucket it was around my second year of college. It was the first time I really wanted to do something serious for once. Rather than create just for the sake of passing time or as a hobby I built GoldBucket as my first experiment in building a useful software that people can use.</div><div><br></div><div>I did try getting myself some partners. Or people who would be interested in building things along with me. But I later felt that it was fruitless as for most part I understood that the students with me weren't interested in building things or had faith that I was serious about what I said I wanted to do.</div><div><br></div><div>So I took it upon myself to build a GoldBucket just so I could possibly generate some revenue and inspire others to join me. Neither of those plans of course ever panned out. What did pan out was whether I liked it or not, Adapt was officially a company with it's own product.</div>",
+        "style": {
+          "x": 387,
+          "y": 292,
+          "width": 796,
+          "height": 354,
+          "zIndex": 7,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "textAlign": "justify",
+        "mobileStyle": {
+          "x": 20,
+          "y": 981,
+          "width": 350,
+          "height": 704,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768179385541",
+        "type": "text",
+        "content": "<div>GoldBucket is a fiscal app. A personal financial ops layer.&nbsp;</div><div><br></div><div>Most of india makes their purchases in kirana stores and small shops and most of india irrespective of their background own a android phone and need to manage their finances.&nbsp;</div><div><br></div><div>GoldBucket was made essentially so that any person can scan a physical copy of a bill, create a excel sheet from it as well as create a interactive dashboard out of this. This would allow you to track your own expenses with ease. Without having to spend ages trying to do budget just so you wouldn't overspend your budget.</div>",
+        "style": {
+          "x": 74,
+          "y": 1593,
+          "width": 745,
+          "height": 267,
+          "zIndex": 8,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 3079,
+          "width": 350,
+          "height": 464,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768179458591",
+        "type": "text",
+        "content": "<b>What GoldBucket did</b>",
+        "style": {
+          "x": 74,
+          "y": 1543,
+          "width": 765,
+          "height": 50,
+          "zIndex": 9,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "left"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 2977,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768298234970",
+        "type": "text",
+        "content": "<div>Initially this was built to be put up on Google Play Store. However, thanks to rigid verifications from google's side and other issues such as long documentation. We couldn't follow through. It was essentially never released on google play store.</div><div><br></div><div>After a initially disappointing month of trying very hard and inevitably failing it was launched in Amazon App Store (Yes, that is a actual and real app store.) You can still check it out today. However, the backend for the app has been permanently been closed.&nbsp;</div><div><br></div><div>And we have no plans to revive it anytime soon.</div>",
+        "style": {
+          "x": 388,
+          "y": 2189,
+          "width": 748,
+          "height": 279,
+          "zIndex": 10,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 4417,
+          "width": 350,
+          "height": 488,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768298374932",
+        "type": "text",
+        "content": "<b>What Happened to it? Can I use it today?</b>",
+        "style": {
+          "x": 388,
+          "y": 2134,
+          "width": 748,
+          "height": 55,
+          "zIndex": 11,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 4285,
+          "width": 350,
+          "height": 92,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768298437665",
+        "type": "image",
+        "content": "/assets/Pic3.jpg",
+        "style": {
+          "x": 819,
+          "y": 2600,
+          "width": 287,
+          "height": 546,
           "zIndex": 12,
           "fontSize": 16,
           "color": "#000000",
           "backgroundColor": "transparent",
           "borderRadius": 0,
           "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 4945,
+          "width": 350,
+          "height": 666,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768298559854",
+        "type": "text",
+        "content": "<div>So as of today the day of January 13th 2026. We have no plans to restart or work on GoldBucket anytime soon. Mainly because, We, as a company have become much more interested in building hardware and physical systems rather than purely software based ones.</div><div><br></div><div>We've not however, abandoned the project entierly. Although we don't have any plans as of today. We will finish what we started. But until then so long, partner. Rest well.</div><div><br></div><div>You can check out goldbucket on amazon app store or on amazon.in in the apps and games section. It was launched officially on 25th September 2023.</div>",
+        "style": {
+          "x": 73,
+          "y": 2742,
+          "width": 732,
+          "height": 287,
+          "zIndex": 13,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1,
+          "textAlign": "justify"
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5753,
+          "width": 350,
+          "height": 512,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768298599177",
+        "type": "text",
+        "content": "<b>So long, partner.</b>",
+        "style": {
+          "x": 73,
+          "y": 2692,
+          "width": 753,
+          "height": 50,
+          "zIndex": 14,
+          "fontSize": 25,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 5651,
+          "width": 350,
+          "height": 62,
+          "fontSize": 20
+        }
+      },
+      {
+        "id": "1768486506859",
+        "type": "text",
+        "content": "<b>Founder's note:</b>",
+        "style": {
+          "x": 362,
+          "y": 255,
+          "width": 962,
+          "height": 50,
+          "zIndex": 14,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 885,
+          "width": 350,
+          "height": 56,
+          "fontSize": 16
+        }
+      },
+      {
+        "id": "1768487725005",
+        "type": "video",
+        "content": "https://youtube.com/shorts/YCVYBEU4p7g?si=2nyQGR42r-nlsGcM",
+        "style": {
+          "x": 430,
+          "y": 756,
+          "width": 369,
+          "height": 662,
+          "zIndex": 15,
+          "fontSize": 16,
+          "color": "#000000",
+          "backgroundColor": "transparent",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        "mobileStyle": {
+          "x": 20,
+          "y": 1725,
+          "width": 350,
+          "height": 628,
+          "fontSize": 16
         }
       }
     ],
     "imageFit": "contain",
-    "imagePosition": "top"
-  },
-  {
-    "id": "goldbucket",
-    "title": "GoldBucket",
-    "tagline": "Your personal finance analyzer",
-    "description": "An AI powered accounts manager app which could scan your bills and create interactive dashboards for you to analyze.",
-    "image": "/assets/products/goldbucket.jpg",
-    "blocks": [
-      {
-        "id": "1766740077933",
-        "type": "text",
-        "content": "GoldBucket Custom",
-        "style": {
-          "x": 500,
-          "y": 50,
-          "width": "auto",
-          "height": "auto",
-          "zIndex": 1,
-          "fontSize": 16,
-          "color": "#000000"
-        }
-      },
-      {
-        "id": "1766740111542",
-        "type": "image",
-        "content": "",
-        "style": {
-          "x": 50,
-          "y": 300,
-          "width": 300,
-          "height": 200,
-          "zIndex": 2,
-          "fontSize": 16,
-          "color": "#000000"
-        }
-      }
-    ]
+    "canvasHeight": 7073.918464225613
   }
 ]

@@ -8,7 +8,7 @@ import { Github, Twitter, Linkedin, Mail, Instagram, Youtube } from 'lucide-reac
 // Define types locally
 type Product = { id: string; title: string; tagline: string; description: string; image: string; imageFit?: any; imagePosition?: string }
 type Research = { id: string; title: string; description: string; image: string; imageFit?: any; imagePosition?: string }
-type Blog = { id: string; title: string; excerpt: string; image: string; imageFit?: any; imagePosition?: string }
+type Blog = { id: string; title: string; excerpt: string; image: string; imageFit?: any; imagePosition?: string; slug?: string }
 
 export default function HomeClient({
     initialProducts,
@@ -82,7 +82,7 @@ export default function HomeClient({
                 <nav className="hidden md:block">
                     <ul className="flex items-center gap-8 text-sm font-medium text-brand/80">
                         <li><button onClick={() => scrollToSection('products')} className="hover:text-brand hover:underline underline-offset-4 transition-all">Products</button></li>
-                        <li><button onClick={() => scrollToSection('research')} className="hover:text-brand hover:underline underline-offset-4 transition-all">Research</button></li>
+                        {/* <li><button onClick={() => scrollToSection('research')} className="hover:text-brand hover:underline underline-offset-4 transition-all">Research</button></li> */}
                         <li><button onClick={() => scrollToSection('blogs')} className="hover:text-brand hover:underline underline-offset-4 transition-all">Blogs</button></li>
                         <li><button onClick={() => scrollToSection('about')} className="hover:text-brand hover:underline underline-offset-4 transition-all">About Us</button></li>
                     </ul>
@@ -220,7 +220,7 @@ export default function HomeClient({
                     ))}
                 </section>
 
-                {/* Research (Dynamic) */}
+                {/* Research (Dynamic) - COMMENTED OUT
                 <section id="research" className="py-32 px-6 md:px-12 bg-white text-brand">
                     <div className="max-w-7xl mx-auto">
                         <h2 className="mb-12 text-3xl font-bold md:text-5xl border-l-4 border-brand pl-6">Research</h2>
@@ -252,6 +252,7 @@ export default function HomeClient({
                         </div>
                     </div>
                 </section>
+                */}
 
                 {/* Blogs (Dynamic) */}
                 <section id="blogs">
@@ -270,9 +271,9 @@ export default function HomeClient({
                                     />
                                 ) : null}
                             </div>
-                            <div className="absolute inset-0 bg-white/80 group-hover:bg-white/60 transition-colors" />
+                            <div className="absolute inset-0 bg-white/[0.85] group-hover:bg-white/95 transition-colors" />
 
-                            <Link href="#" className="absolute inset-0 flex flex-col justify-center items-center text-center p-12 text-brand">
+                            <Link href={`/blogs/${blog.slug || blog.id}`} className="absolute inset-0 flex flex-col justify-center items-center text-center p-12 text-brand">
                                 <span className="mb-4 text-xs font-bold uppercase tracking-widest text-brand/40">Blog Post</span>
                                 <h2 className="text-4xl font-black md:text-5xl max-w-4xl hover:underline decoration-brand/20 decoration-2 underline-offset-8">
                                     {blog.title}
@@ -291,7 +292,7 @@ export default function HomeClient({
                         <h2 className="text-3xl font-bold mb-8">About Us</h2>
                         <p className="text-xl leading-relaxed opacity-90 font-light mb-12">
                             Adapt Robotics started with a simple question: How can we make machines truly adaptive?
-                            From humble beginnings in a small garage to pioneering breakthroughs in autonomous systems.
+                            From humble beginnings from developing remote control cars and operating farming motors to pioneering breakthroughs in autonomous systems.
                         </p>
 
                         {/* Social Media & Incubator */}
@@ -311,7 +312,7 @@ export default function HomeClient({
                     <div className="w-full max-w-6xl shadow-2xl rounded-3xl overflow-hidden bg-white flex flex-col md:flex-row min-h-[600px]">
                         {/* Left: Form */}
                         <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
-                            <h2 className="text-3xl md:text-4xl font-bold text-brand mb-8 uppercase tracking-wide">Contact Sales!</h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-brand mb-8 uppercase tracking-wide">Contact Us!</h2>
                             <ContactForm />
                         </div>
 

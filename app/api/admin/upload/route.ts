@@ -1,19 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server'
+
+
 // path imported dynamically
 
-export const runtime = 'edge';
 
 export async function POST(req: NextRequest) {
-    if (process.env.NODE_ENV !== 'development') {
-        return new NextResponse('Forbidden', { status: 403 })
-    }
+    // if (process.env.NODE_ENV !== 'development') {
+    //     return new NextResponse('Forbidden', { status: 403 })
+    // }
 
     const { writeFile, mkdir } = await import('fs/promises');
     const path = (await import('path')).default;
 
-    if (process.env.NODE_ENV !== 'development') {
-        return new NextResponse('Forbidden', { status: 403 })
-    }
+    // if (process.env.NODE_ENV !== 'development') {
+    //     return new NextResponse('Forbidden', { status: 403 })
+    // }
 
     const formData = await req.formData()
     const file = formData.get('file') as File | null

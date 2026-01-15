@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Plus, Trash2, Save, GripVertical, Image as ImageIcon, Palette } from 'lucide-react'
+import { Plus, Trash2, Save, GripVertical, Image as ImageIcon, Palette, Copy, Clipboard, CheckSquare, Square, AlignLeft, AlignCenter, AlignRight, AlignJustify, Check } from 'lucide-react'
 
 type ContentItem = {
     id: string
@@ -27,6 +27,10 @@ export default function ContentEditor({
     const [saving, setSaving] = useState(false)
     const [deleteConfirmationIndex, setDeleteConfirmationIndex] = useState<number | null>(null)
 
+    // Selection & Clipboard
+    const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set())
+    const [clipboard, setClipboard] = useState<ContentItem[]>([])
+
     useEffect(() => {
         fetch(`/api/admin/content?type=${type}`)
             .then(res => res.json())
@@ -44,6 +48,45 @@ export default function ContentEditor({
         })
         setSaving(false)
         alert('Saved successfully!')
+    }
+
+    // --- Selection Logic ---
+    const toggleSelection = (id: string) => {
+        const newSelection = new Set(selectedItems)
+        if (newSelection.has(id)) {
+            newSelection.delete(id)
+        } else {
+            newSelection.add(id)
+        }
+        setSelectedItems(newSelection)
+    }
+
+    const selectAll = () => {
+        if (selectedItems.size === items.length) {
+            setSelectedItems(new Set())
+        } else {
+            setSelectedItems(new Set(items.map(i => i.id)))
+        }
+    }
+
+    // --- Copy / Paste Logic ---
+    const handleCopy = () => {
+        const itemsToCopy = items.filter(item => selectedItems.has(item.id))
+        if (itemsToCopy.length === 0) return alert("Select items to copy first")
+        setClipboard(itemsToCopy)
+        alert(`Copied ${itemsToCopy.length} items to clipboard`)
+    }
+
+    const handlePaste = () => {
+        if (clipboard.length === 0) return
+
+        const newItems = clipboard.map(item => ({
+            ...item,
+            id: Date.now().toString() + Math.random().toString(36).substr(2, 9) // Unique ID
+        }))
+
+        setItems([...items, ...newItems])
+        alert(`Pasted ${newItems.length} items`)
     }
 
     const handleAddItem = () => {
@@ -111,7 +154,40 @@ export default function ContentEditor({
     return (
         <div className="max-w-5xl mx-auto">
             <div className="flex justify-between items-center mb-8">
-                <h1 className="text-3xl font-bold capitalize">{type} Manager</h1>
+                <div className="flex items-center gap-4">
+                    <h1 className="text-3xl font-bold capitalize">{type} Manager</h1>
+                    <div className="flex items-center gap-2 bg-white rounded-lg border border-gray-200 p-1">
+                        <button
+                            onClick={selectAll}
+                            className="p-2 text-gray-500 hover:text-brand transition-colors"
+                            title={selectedItems.size === items.length ? "Deselect All" : "Select All"}
+                        >
+                            {selectedItems.size > 0 && selectedItems.size === items.length ? (
+                                <CheckSquare className="h-4 w-4" />
+                            ) : (
+                                <Square className="h-4 w-4" />
+                            )}
+                        </button>
+                        <div className="w-px h-4 bg-gray-200"></div>
+                        <button
+                            onClick={handleCopy}
+                            disabled={selectedItems.size === 0}
+                            className="p-2 text-gray-500 hover:text-brand disabled:opacity-30 transition-colors"
+                            title="Copy Selected"
+                        >
+                            <Copy className="h-4 w-4" />
+                        </button>
+                        <button
+                            onClick={handlePaste}
+                            disabled={clipboard.length === 0}
+                            className="p-2 text-gray-500 hover:text-brand disabled:opacity-30 transition-colors"
+                            title="Paste"
+                        >
+                            <Clipboard className="h-4 w-4" />
+                        </button>
+                    </div>
+                </div>
+
                 <button
                     onClick={handleSave}
                     disabled={saving}
@@ -124,8 +200,21 @@ export default function ContentEditor({
 
             <div className="space-y-6">
                 {items.map((item, index) => (
-                    <div key={item.id} className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm relative group">
+                    <div
+                        key={item.id}
+                        className={`p-6 rounded-lg border shadow-sm relative group transition-all ${selectedItems.has(item.id)
+                                ? 'bg-blue-50/50 border-blue-200 ring-1 ring-blue-200'
+                                : 'bg-white border-gray-200'
+                            }`}
+                    >
                         <div className="absolute top-4 right-4 flex gap-2">
+                            <button
+                                onClick={() => toggleSelection(item.id)}
+                                className={`p-2 transition-colors ${selectedItems.has(item.id) ? 'text-brand' : 'text-gray-300 hover:text-brand'}`}
+                                title="Select"
+                            >
+                                {selectedItems.has(item.id) ? <CheckSquare className="h-4 w-4" /> : <Square className="h-4 w-4" />}
+                            </button>
                             <Link
                                 href={`/admin/design/${type}/${item.id}`}
                                 className="text-gray-400 hover:text-brand p-2 transition-colors"
@@ -225,12 +314,32 @@ export default function ContentEditor({
                                             </div>
                                         </div>
                                     ) : field.type === 'textarea' ? (
-                                        <textarea
-                                            value={item[field.name] || ''}
-                                            onChange={e => handleChange(index, field.name, e.target.value)}
-                                            className="w-full border border-gray-200 rounded p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-h-[100px]"
-                                            rows={4}
-                                        />
+                                        <div className="space-y-2">
+                                            <div className="flex justify-end gap-1">
+                                                {[
+                                                    { align: 'left', Icon: AlignLeft },
+                                                    { align: 'center', Icon: AlignCenter },
+                                                    { align: 'right', Icon: AlignRight },
+                                                    { align: 'justify', Icon: AlignJustify }
+                                                ].map(({ align, Icon }) => (
+                                                    <button
+                                                        key={align}
+                                                        onClick={() => handleChange(index, `${field.name}Align`, align)}
+                                                        className={`p-1 rounded ${item[`${field.name}Align`] === align ? 'bg-gray-200 text-black' : 'text-gray-400 hover:bg-gray-100'}`}
+                                                        title={`Align ${align}`}
+                                                    >
+                                                        <Icon className="h-3 w-3" />
+                                                    </button>
+                                                ))}
+                                            </div>
+                                            <textarea
+                                                value={item[field.name] || ''}
+                                                onChange={e => handleChange(index, field.name, e.target.value)}
+                                                className="w-full border border-gray-200 rounded p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-h-[100px]"
+                                                rows={4}
+                                                style={{ textAlign: item[`${field.name}Align`] || 'left' }}
+                                            />
+                                        </div>
                                     ) : (
                                         <input
                                             type="text"
