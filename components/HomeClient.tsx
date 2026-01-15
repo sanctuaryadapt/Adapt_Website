@@ -6,7 +6,9 @@ import Link from 'next/link'
 import { Github, Twitter, Linkedin, Mail, Instagram, Youtube } from 'lucide-react'
 
 // Define types locally
-type Product = { id: string; title: string; tagline: string; description: string; image: string; imageFit?: any; imagePosition?: string }
+
+type Product = { id: string; title: string; tagline?: string; description: string; image: string; imageFit?: any; imagePosition?: string }
+
 type Research = { id: string; title: string; description: string; image: string; imageFit?: any; imagePosition?: string }
 type Blog = { id: string; title: string; excerpt: string; image: string; imageFit?: any; imagePosition?: string; slug?: string }
 

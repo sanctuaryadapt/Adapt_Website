@@ -1,21 +1,29 @@
 
+import productsData from '@/content/products.json'
+import researchData from '@/content/research.json'
+import blogsData from '@/content/blogs.json'
+import { NextResponse } from 'next/server'
+
 export async function getContent(type: 'products' | 'research' | 'blogs') {
-    try {
-        const path = (await import('path')).default;
-        const fs = (await import('fs/promises'));
-
-        const contentDir = path.join(process.cwd(), 'content');
-        const filePath = path.join(contentDir, `${type}.json`);
-
-        const fileContent = await fs.readFile(filePath, 'utf-8');
-        return JSON.parse(fileContent);
-    } catch (error) {
-        console.error(`Error reading ${type} content:`, error);
-        return [];
+    switch (type) {
+        case 'products':
+            return productsData
+        case 'research':
+            return researchData
+        case 'blogs':
+            return blogsData
+        default:
+            return []
     }
 }
 
 export async function saveContent(type: 'products' | 'research' | 'blogs', data: any[]) {
+    // Strictly disable in production
+    if (process.env.NODE_ENV !== 'development') {
+        console.warn('saveContent is disabled in production')
+        return false
+    }
+
     try {
         const path = (await import('path')).default;
         const fs = (await import('fs/promises'));

@@ -3,8 +3,15 @@ import { NextResponse } from 'next/server'
 
 
 
+
+export const runtime = 'edge';
+
 export async function GET() {
+    if (process.env.NODE_ENV !== 'development') {
+        return new NextResponse('Not Found', { status: 404 })
+    }
     try {
+
         const path = (await import('path')).default;
         const { readdir } = await import('fs/promises');
 

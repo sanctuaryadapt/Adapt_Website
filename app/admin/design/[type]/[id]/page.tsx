@@ -1,6 +1,9 @@
 import PageBuilder from '@/components/admin/PageBuilder'
 
+
 import { getContent } from '@/lib/content'
+
+export const runtime = 'edge';
 
 export async function generateStaticParams() {
     const types = ['products', 'research', 'blogs'] as const

@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getContent, saveContent } from '@/lib/content'
 
+
+export const runtime = 'edge';
+
 export async function GET(req: NextRequest) {
+    if (process.env.NODE_ENV !== 'development') {
+        return new NextResponse('Not Found', { status: 404 })
+    }
     // if (process.env.NODE_ENV !== 'development') {
     //     return new NextResponse('Forbidden', { status: 403 })
     // }
@@ -16,9 +22,14 @@ export async function GET(req: NextRequest) {
     return NextResponse.json(data)
 }
 
+
 // POST /api/admin/content
 // Body: { type: 'products', data: [...] }
 export async function POST(req: NextRequest) {
+    if (process.env.NODE_ENV !== 'development') {
+        return new NextResponse('Not Found', { status: 404 })
+    }
+
     // if (process.env.NODE_ENV !== 'development') {
     //     return new NextResponse('Forbidden', { status: 403 })
     // }

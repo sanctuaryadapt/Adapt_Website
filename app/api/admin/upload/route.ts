@@ -4,7 +4,14 @@ import { NextRequest, NextResponse } from 'next/server'
 // path imported dynamically
 
 
+
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
+    if (process.env.NODE_ENV !== 'development') {
+        return new NextResponse('Not Found', { status: 404 })
+    }
+
     // if (process.env.NODE_ENV !== 'development') {
     //     return new NextResponse('Forbidden', { status: 403 })
     // }
