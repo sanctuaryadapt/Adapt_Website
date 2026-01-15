@@ -2,9 +2,11 @@ import { getContent } from '@/lib/content'
 import HomeClient from '@/components/HomeClient'
 
 export default async function Home() {
-  const products = await getContent('products')
-  const research = await getContent('research')
-  const blogs = await getContent('blogs')
+
+  const products = await getContent('products') as any
+  const research = await getContent('research') as any
+  const blogs = await getContent('blogs') as any
+
 
   return (
     <HomeClient

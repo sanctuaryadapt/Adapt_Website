@@ -1,10 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getContent, saveContent } from '@/lib/content'
+
+import { getContent } from '@/lib/content'
+import { saveContent } from '@/lib/content-admin'
+
+
+
 
 
 export const runtime = 'edge';
 
 export async function GET(req: NextRequest) {
+
+
     if (process.env.NODE_ENV !== 'development') {
         return new NextResponse('Not Found', { status: 404 })
     }

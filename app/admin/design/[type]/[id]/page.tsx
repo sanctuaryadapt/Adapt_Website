@@ -3,9 +3,16 @@ import PageBuilder from '@/components/admin/PageBuilder'
 
 import { getContent } from '@/lib/content'
 
+
+
+
 export const runtime = 'edge';
 
+/*
 export async function generateStaticParams() {
+    // Disable in production
+    if (process.env.NODE_ENV !== 'development') return []
+
     const types = ['products', 'research', 'blogs'] as const
     let params: { type: string; id: string }[] = []
 
@@ -17,6 +24,7 @@ export async function generateStaticParams() {
     }
     return params
 }
+*/
 
 export default async function DesignPage({
     params

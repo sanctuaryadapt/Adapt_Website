@@ -1,8 +1,9 @@
 import ContentPage, { generateStaticParamsFor } from '@/components/ContentPage'
 
 
+
 export const dynamic = 'force-static'
-export const runtime = 'edge'
+
 
 
 export async function generateStaticParams() {

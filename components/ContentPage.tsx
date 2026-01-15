@@ -42,8 +42,8 @@ export default async function ContentPage({ params, type, singularTitle }: Conte
     // The placeholder uses `slug` from params, so it works even if item is undefined.
     // I will preserve this behavior.
 
-    if (item?.blocks && item.blocks.length > 0) {
-        return <PageRenderer blocks={item.blocks} />
+    if (item && (item as any).blocks && (item as any).blocks.length > 0) {
+        return <PageRenderer blocks={(item as any).blocks} />
     }
 
     return (
