@@ -23,6 +23,7 @@ interface Block {
         boxShadow?: string
         objectFit?: 'cover' | 'contain'
         objectPosition?: string
+        textAlign?: string
     }
     mobileStyle?: {
         x: number
