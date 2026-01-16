@@ -1,12 +1,15 @@
-import path from 'path'
-import { promises as fs } from 'fs'
-
 export async function getContent(type: 'products' | 'research' | 'blogs') {
-    // Determine the path to the content directory
-    const contentDir = path.join(process.cwd(), 'content')
-    const filePath = path.join(contentDir, `${type}.json`)
+    // Only run on server (Node.js environment)
+    if (typeof window !== 'undefined') return []
 
     try {
+        const path = (await import('path')).default
+        const fs = (await import('fs/promises'))
+
+        // Determine the path to the content directory
+        const contentDir = path.join(process.cwd(), 'content')
+        const filePath = path.join(contentDir, `${type}.json`)
+
         const fileContents = await fs.readFile(filePath, 'utf8')
         return JSON.parse(fileContents)
     } catch (error) {

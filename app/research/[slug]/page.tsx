@@ -2,7 +2,7 @@ import ContentPage, { generateStaticParamsFor } from '@/components/ContentPage'
 
 
 
-export const dynamic = 'force-static'
+
 
 
 
