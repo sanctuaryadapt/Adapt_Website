@@ -2,9 +2,9 @@ import type { NextConfig } from "next";
 
 
 const nextConfig: NextConfig = {
-  webpack: (config, { isServer, nextRuntime }) => {
-    // Apply stubs for client-side AND Edge Runtime
-    if (!isServer || nextRuntime === 'edge') {
+  webpack: (config, { isServer, nextRuntime, dev }) => {
+    // Apply stubs for client-side AND Edge Runtime, but ONLY in production build
+    if ((!isServer || nextRuntime === 'edge') && !dev) {
       config.resolve.fallback = {
         ...config.resolve.fallback,
         fs: false,

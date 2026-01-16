@@ -77,7 +77,8 @@
           "width": 350,
           "height": 233,
           "fontSize": 16
-        }
+        },
+        "groupId": "group-1768528842407"
       },
       {
         "id": "1768497573331",
@@ -126,7 +127,8 @@
           "width": 350,
           "height": 62,
           "fontSize": 20
-        }
+        },
+        "groupId": "group-1768528842407"
       },
       {
         "id": "1768497628506",
@@ -174,7 +176,8 @@
           "width": 350,
           "height": 233,
           "fontSize": 16
-        }
+        },
+        "groupId": "group-1768528810557"
       },
       {
         "id": "1768497765425",
@@ -195,11 +198,12 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 2125,
+          "y": 1445,
           "width": 350,
           "height": 62,
           "fontSize": 20
-        }
+        },
+        "groupId": "group-1768528810557"
       },
       {
         "id": "1768497800272",
@@ -244,11 +248,12 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 1705,
+          "y": 1787,
           "width": 350,
           "height": 233,
           "fontSize": 16
-        }
+        },
+        "groupId": "group-1768528845807"
       },
       {
         "id": "1768497848448",
@@ -269,7 +274,7 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 1978,
+          "y": 2060,
           "width": 350,
           "height": 107,
           "fontSize": 25
@@ -294,11 +299,12 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 2443,
+          "y": 2423,
           "width": 350,
           "height": 62,
           "fontSize": 20
-        }
+        },
+        "groupId": "group-1768528845807"
       },
       {
         "id": "1768498017768",
@@ -319,7 +325,7 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 1465,
+          "y": 1547,
           "width": 350,
           "height": 200,
           "fontSize": 16
@@ -343,7 +349,7 @@
         },
         "mobileStyle": {
           "x": 20,
-          "y": 2227,
+          "y": 2207,
           "width": 350,
           "height": 176,
           "fontSize": 16

@@ -81,11 +81,11 @@ export default function PageRenderer({ blocks }: { blocks: Block[] }) {
     }, [blocks])
 
     return (
-        <div className="w-full min-h-screen bg-gray-50 flex justify-center overflow-auto">
+        <div className="w-full min-h-screen bg-gray-50 overflow-x-auto">
             {/* Removed overflow-hidden to allow content to bleed out if needed, matching editor */}
             <div
                 ref={containerRef}
-                className="relative w-full max-w-[1200px] bg-white shadow-sm"
+                className="relative mx-auto w-full md:min-w-[1200px] max-w-[1200px] bg-white shadow-sm"
                 style={{
                     minHeight: '100vh',
                     height: dynamicHeight ? `${dynamicHeight}px` : `${staticHeight}px`,
@@ -116,6 +116,7 @@ function BlockItem({ block }: { block: Block }) {
         '--m-fs': `${block.mobileStyle?.fontSize ?? block.style.fontSize}px`,
 
         zIndex: block.style.zIndex,
+        textAlign: block.style.textAlign,
         backgroundColor: block.style.backgroundColor,
         borderRadius: block.style.borderRadius,
         boxShadow: block.style.boxShadow,

@@ -7,6 +7,9 @@ const comfortaa = Comfortaa({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Adapt Robotics',
   description: 'Sanctuary Adapt - Advanced Robotics Automation',
+  icons: {
+    icon: '/assets/pics/AdaptLogo.png'
+  }
 }
 
 export default function RootLayout({

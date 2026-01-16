@@ -1,19 +1,17 @@
-
-import productsData from '@/content/products.json'
-import researchData from '@/content/research.json'
-import blogsData from '@/content/blogs.json'
-import { NextResponse } from 'next/server'
+import path from 'path'
+import { promises as fs } from 'fs'
 
 export async function getContent(type: 'products' | 'research' | 'blogs') {
-    switch (type) {
-        case 'products':
-            return productsData
-        case 'research':
-            return researchData
-        case 'blogs':
-            return blogsData
-        default:
-            return []
+    // Determine the path to the content directory
+    const contentDir = path.join(process.cwd(), 'content')
+    const filePath = path.join(contentDir, `${type}.json`)
+
+    try {
+        const fileContents = await fs.readFile(filePath, 'utf8')
+        return JSON.parse(fileContents)
+    } catch (error) {
+        console.error(`Error reading ${type} content:`, error)
+        return []
     }
 }
 

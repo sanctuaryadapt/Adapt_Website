@@ -7,7 +7,7 @@ import { saveContent } from '@/lib/content-admin'
 
 
 
-export const runtime = 'edge';
+
 
 export async function GET(req: NextRequest) {
 

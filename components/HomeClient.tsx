@@ -77,7 +77,7 @@ export default function HomeClient({
             {/* Header */}
             <header className="fixed top-0 left-0 right-0 z-40 flex items-center justify-between bg-white/0 px-8 py-6 transition-all hover:bg-white/95 md:px-12 backdrop-blur-sm">
                 <div className="flex items-center gap-2">
-                    <img src="/assets/pics/AdaptLogo.jpg" alt="Adapt Robotics Logo" className="h-10 w-auto rounded-full" />
+                    <img src="/assets/pics/AdaptLogo.png" alt="Adapt Robotics Logo" className="h-10 w-auto rounded-full" />
                     <span className="text-xl font-bold tracking-tight text-brand">Adapt Robotics</span>
                 </div>
 
